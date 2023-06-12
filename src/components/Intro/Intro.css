@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px){
+    .introsection{
+        flex-direction: column;
+    }  
+    .introdiv{
+        margin-bottom: 80px;
+    }
+}

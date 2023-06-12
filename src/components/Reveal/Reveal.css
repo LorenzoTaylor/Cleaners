@@ -1,0 +1,8 @@
+.fade-in-element {
+    opacity: 0;
+    transition: all 3s;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }

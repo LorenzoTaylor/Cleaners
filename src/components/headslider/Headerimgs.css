@@ -1,0 +1,75 @@
+.sliderimg{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.alice{
+    position: absolute;
+    
+}
+
+.alice-carousel__dots-item:not(.__custom) {
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(56,182,255);
+}
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #FF8138;
+}
+
+.box{
+    background-color: #FF8138;
+    height: 130%;
+    width: 40%;
+    z-index: 9;
+    top: -50%;
+    left: -20%;
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1000px) {
+    .box{
+        background-color: #FF8138;
+        height: 130%;
+        width: 40%;
+        z-index: 9;
+        top: -45%;
+        left: -15%;
+        transform: rotate(45deg);
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .box{
+        background-color: #FF8138;
+        height: 130%;
+        width: 50%;
+        z-index: 9;
+        top: -45%;
+        left: -15%;
+        transform: rotate(45deg);
+    }
+  }
+
+
+#boxtext{
+    position: fixed;
+    transform: rotate(-45deg);
+    padding-top: 80%;
+    padding-left: 40%;
+    z-index: 10;
+    font-size: 180%;
+    width: 40%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    overflow: hidden;
+    position: relative;
+}
