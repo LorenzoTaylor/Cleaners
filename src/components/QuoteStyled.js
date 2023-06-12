@@ -9,7 +9,6 @@ export const LineLabel = styled.label`
 
 export const LineInput = styled.input`
     padding:10px;
-    border: none;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
