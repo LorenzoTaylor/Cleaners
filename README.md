@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![Lorenzo's Cleaners](https://github.com/LorenzoTaylor/Cleaners/assets/57335062/201ab5d4-a781-4354-b227-13f597eb33e2)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,6 +45,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+![Lorenzo's Cleaners (2)](https://github.com/LorenzoTaylor/Cleaners/assets/57335062/c5b21912-5502-42df-a240-5c5872e06d7e)
 
 ### Code Splitting
 
@@ -64,6 +66,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Lorenzo's Cleaners (1)](https://github.com/LorenzoTaylor/Cleaners/assets/57335062/63bed1f9-c309-4c27-b7d0-4246f55f2f9b)
 
 ### `npm run build` fails to minify
 
