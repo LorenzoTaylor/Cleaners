@@ -32,7 +32,10 @@ function App() {
         </Phone>
 
         <Blue></Blue>
-
+        <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1NIH6RAveicxWCwrJ89Db0TW"
+publishable-key="pk_live_51NIGbAAveicxWCwr9ka4YpfK5Ot8mVYXyMv3x4x9NPiWLRweqFojbKynhQeBYLXA5X0fac0GtMS1XTvcnnI5D63k00tUu7wAhp">
+</stripe-pricing-table>
       </body>
       <footer>
         <Footer>

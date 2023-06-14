@@ -72,4 +72,5 @@
 .container{
     overflow: hidden;
     position: relative;
+    max-width: 2000px;
 }

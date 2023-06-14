@@ -10,6 +10,7 @@ export const Box = styled.div`
 export const Container = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   max-width: 1000px;
   margin: 0 auto;
 `;
@@ -25,6 +26,11 @@ export const Column = styled.div`
 export const Row = styled.div`
   display: flex;
   width: 100%;
+  justify-content: center;
+
+  @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
 `;
 
 export const FooterLink = styled.a`

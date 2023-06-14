@@ -10,7 +10,6 @@ import {
 } from './FooterStyled';
 import { Link } from 'react-scroll';
 import { LineLabel, LineInput, LineText} from './QuoteStyled.js';
-import img1 from './Images/Black Cleaning Service Logo (1).png'
 
 const Footer = () => {
   const linkStyles = {
@@ -28,9 +27,7 @@ const Footer = () => {
   return (
     <Box>
       <Container>
-        <Row>
-        <FooterLogo src={img1}/>
-        </Row>
+        
         <Row>
         <div id="contact" style={{ display: "flex", justifyContent: "center", color: 'white', fontFamily: "'Roboto', sans-serif",}}>
           <div style={{ width: "400px", textAlign: "center" }}>

@@ -36,7 +36,7 @@ const Blue = () => {
         </div>
       </Bluebox>
       <div id="about"></div>
-      <section style={{ margin: "30px", fontFamily: "Roboto, sans-serif" }}>
+      <section style={{ margin: "30px", fontFamily: "Roboto, sans-serif", maxWidth: "1500px"}}>
         <div>
           <h1 style={{ padding: "10px 10% 10px 10%", textAlign: "center" }}>Bay Area Hospitality, Right To Your Doorstep</h1>
         </div>

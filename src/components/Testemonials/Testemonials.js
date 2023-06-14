@@ -1,7 +1,7 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import 'react-alice-carousel/lib/alice-carousel.css';
-import {DarkBlueBox, TBackground } from "./Testemonialsstyled";
+import {DarkBlueBox, TBackground, ResponsiveDiv, SecondResponsiveDiv, TestemonialImage } from "./Testemonialsstyled";
 
 import testemonial1 from "../Images/testemonial1.png";
 import testemonial2 from "../Images/testemonial2.png";
@@ -29,22 +29,18 @@ const Testemonials = () => {
         <TBackground id="testimonials">
             <DarkBlueBox style={{zIndex: "1", position: "absolute"}}>
             <div style={{zIndex: "2"}}>
+                <ResponsiveDiv>
+                  <SecondResponsiveDiv>
+                    <TestemonialImage src={testemonial1} alt='testemonial'/>
+                    <TestemonialImage src={testemonial2} alt='testemonial'/>
+                  </SecondResponsiveDiv>
+                  <SecondResponsiveDiv>
+                  <TestemonialImage src={testemonial3} alt='testemonial'/>
+                  <TestemonialImage src={testemonial4} alt='testemonial'/>
+                  </SecondResponsiveDiv>
+                </ResponsiveDiv>
             </div>
             </DarkBlueBox>
-            <div style={{zIndex: "5", alignSelf: "center", paddingLeft: "70%"}}>
-            <AliceCarousel
-                    mouseTracking
-                    infinite
-                    autoWidth
-                    autoPlayInterval={3500}
-                    disableDotsControls
-                    disableButtonsControls
-                    responsive={responsive}
-                    items={items}
-                    autoPlay
-                    style={{ paddingLeft: "0%"}}
-                    />
-            </div>
         </TBackground>
     );
 };

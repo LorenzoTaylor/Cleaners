@@ -37,9 +37,9 @@ const ImgSlide = () => {
       </AliceCarousel>
       <div className='boxwrapper'>
         <div className='alice box'>
-          <p id="boxtext">
+          {/*<p id="boxtext">
             {textArr[currentIndex]}
-          </p>
+  </p>*/}
         </div>
       </div>
     </div>

@@ -11,5 +11,6 @@ export const Bluebox = styled.div`
     text-align: center;
     padding: 5% 20% 5% 20%;
     color: white;
+    max-width: 1500px;
 `;
 

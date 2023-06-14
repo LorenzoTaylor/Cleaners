@@ -7,6 +7,13 @@ export const TBackground = styled.div`
     background-image: url(${backgroundImage});
     overflow-x: hidden;
     height: 600px;
+    @media screen and (max-width: 1000px) {
+        height: 700px;
+    }
+
+    @media screen and (max-width: 500px) {
+        height: 1300px;
+    }
 `;
 
 export const CenterP = styled.p`
@@ -23,10 +30,34 @@ export const CenterP = styled.p`
 
 export const DarkBlueBox = styled.div`
     position: relative;
-    height: 400px;
-    width: 70%;
+    height: max-content;
+    width: max-content;
     background-color: #012E6A;
     align-self: center;
     overflow-x: visible;
     z-index: 1;
+`;
+
+export const TestemonialImage = styled.img`
+    align-self: center;
+    height: 300px;
+    width: 100%;
+`;
+
+export const ResponsiveDiv = styled.div`
+    display: flex;
+    padding: 10px;
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+`;
+
+export const SecondResponsiveDiv = styled.div`
+    display: flex;
+
+  @media screen and (max-width: 500px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `;

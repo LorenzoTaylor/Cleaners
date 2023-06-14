@@ -12,6 +12,7 @@ export const Nav = styled.nav`
   background-color: white;
   width: 100%;
   top: 0;
+  max-width: 1500px;
 `;
   
 export const Bars = styled(FaBars)`
