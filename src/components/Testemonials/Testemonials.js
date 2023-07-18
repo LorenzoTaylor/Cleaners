@@ -1,6 +1,6 @@
 import React from "react";
-import AliceCarousel from "react-alice-carousel";
 import 'react-alice-carousel/lib/alice-carousel.css';
+import Slider from "../Slider/Slider"
 import {DarkBlueBox, TBackground, ResponsiveDiv, SecondResponsiveDiv, TestemonialImage } from "./Testemonialsstyled";
 
 import testemonial1 from "../Images/testemonial1.png";
@@ -26,8 +26,8 @@ const items = [
 
 const Testemonials = () => {
     return(
+      <>
         <TBackground id="testimonials">
-            <DarkBlueBox style={{zIndex: "1", position: "absolute"}}>
             <div style={{zIndex: "2"}}>
                 <ResponsiveDiv>
                   <SecondResponsiveDiv>
@@ -40,8 +40,10 @@ const Testemonials = () => {
                   </SecondResponsiveDiv>
                 </ResponsiveDiv>
             </div>
-            </DarkBlueBox>
         </TBackground>
+        {/*<Slider>
+        </Slider>*/}
+        </>
     );
 };
 

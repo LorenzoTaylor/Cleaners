@@ -13,7 +13,7 @@ import { LineLabel, LineInput, LineText} from './QuoteStyled.js';
 
 const Footer = () => {
   const linkStyles = {
-    color: "#fff",
+    color: "darkgrey",
     marginBottom: "10px",
     fontSize: "16px",
     textDecoration: "none",
@@ -29,38 +29,6 @@ const Footer = () => {
       <Container>
         
         <Row>
-        <div id="contact" style={{ display: "flex", justifyContent: "center", color: 'white', fontFamily: "'Roboto', sans-serif",}}>
-          <div style={{ width: "400px", textAlign: "center" }}>
-            <h1>Contact Us</h1>
-            <form>
-                <div style={{display: "flex", justifyContent: "center"}}>
-                    <div style={{display: "flex", flexDirection: "column"}}>
-                        <LineLabel htmlFor="name">First Name:</LineLabel>
-                        <LineInput type="text" id="firstname" name="firstname" />
-                    </div>
-                    <div style={{display: "flex", flexDirection: "column"}}>
-                        <LineLabel htmlFor="name">Last Name:</LineLabel>
-                        <LineInput type="text" id="lastname" name="lastname" />
-                    </div>
-                </div>
-              <LineLabel htmlFor="email">Email:</LineLabel>
-              <LineInput type="email" id="email" name="email" />
-              <LineLabel htmlFor="message">Message:</LineLabel>
-              <LineText id="message" name="message"></LineText>
-              <button type="submit"
-              style={{
-                backgroundColor: '#39d7ff',
-                borderRadius: '5px',
-                padding: '10px',
-                color: 'white',
-                border: 'none',
-                marginTop: '10px',
-                width: '40%',
-                fontSize: "15px",
-                }}>Send Message</button>
-            </form>
-          </div>
-        </div>
           <Column>
             <Heading>Quick Links</Heading>
             <Link style={linkStyles}
@@ -97,22 +65,149 @@ const Footer = () => {
           <Column>
             <Heading>Social Media</Heading>
             <FooterLink href="#">
-              <i className="fab fa-facebook-f" />
-              <span>Facebook</span>
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Facebook
+            </Link>
             </FooterLink>
             <FooterLink href="#">
-              <i className="fab fa-instagram" />
-              <span>Instagram</span>
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Instagram
+            </Link>
             </FooterLink>
             <FooterLink href="#">
-              <i className="fab fa-twitter" />
-              <span>Twitter</span>
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Twitter
+            </Link>
             </FooterLink>
             <FooterLink href="#">
-              <i className="fab fa-youtube" />
-              <span>Youtube</span>
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Youtube
+            </Link>
             </FooterLink>
           </Column>
+          <Column>
+            <Heading>Support</Heading>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              FAQ
+            </Link>
+            </FooterLink>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Features
+            </Link>
+            </FooterLink>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Email
+            </Link>
+            </FooterLink>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Shipping
+            </Link>
+            </FooterLink>
+          </Column>
+          <Column>
+            <Heading>Contact Us</Heading>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              (111) 111-1111
+            </Link>
+            </FooterLink>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Features
+            </Link>
+            </FooterLink>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Testemonials
+            </Link>
+            </FooterLink>
+            <FooterLink href="#">
+            <Link style={linkStyles}
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Contact
+            </Link>
+            </FooterLink>
+          </Column>
+        </Row>
+        <Row>
+        <div>
+          <p>Copyright Lorenzo's Cleaners co. 2023 All Rights Reserved</p>
+        </div>
         </Row>
       </Container>
       <iframe

@@ -4,9 +4,10 @@ import backgroundImage from '../Images/pexels-peng-liu-169677.jpg';
 export const TBackground = styled.div`
     display: flex;
     justify-content: center;
-    background-image: url(${backgroundImage});
+    align-items: center;
+    background: #F6F6F6;
     overflow-x: hidden;
-    height: 600px;
+    height: 400px;
     @media screen and (max-width: 1000px) {
         height: 700px;
     }

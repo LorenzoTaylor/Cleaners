@@ -12,7 +12,7 @@ const Blue = () => {
   const CardBullets1 = ["Dusting furniture", "Baseboards", "Glass surfaces", "Vacuum space", "Sanitize"];
   const CardBullets2 = ["Counter tops", "Stove-glass tops", "Refrigerator", "Microwave in/out", "Empty trash"];
   const CardBullets3 = ["Sink(s)", "Bathtub", "Remove soap scum", "Polish faucets", "Mop & sanitize floors"];
-  const CardBullets4 = ["Make beds", "Mop/vacuum", "Clean blinds", "Clean blinds", "Sanitize space"];
+  const CardBullets4 = ["Make beds", " Mop/vacuum", "Clean blinds", "Clean blinds", "Sanitize space"];
 
   return (
     <>

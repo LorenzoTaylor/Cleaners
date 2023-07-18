@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-  background: #012E6A;
+  background: #F6F6F6;
   width: 100%;
   overflow: hidden;
 `;
@@ -13,6 +13,7 @@ export const Container = styled.div`
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
+  flex-direction: column;
 `;
 
 export const Column = styled.div`
@@ -20,13 +21,15 @@ export const Column = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 0 20px;
-  padding: 10px;
+  padding: 50px;
 `;
 
 export const Row = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+  min-width: 100%;
+  
 
   @media screen and (max-width: 800px) {
         flex-direction: column;
@@ -34,7 +37,6 @@ export const Row = styled.div`
 `;
 
 export const FooterLink = styled.a`
-  color: #fff;
   margin-bottom: 10px;
   font-size: 16px;
   text-decoration: none;
@@ -52,6 +54,7 @@ export const Heading = styled.h4`
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 15px;
+  color: #38B6FF;
 `;
 
 export const FooterLogo = styled.img`
