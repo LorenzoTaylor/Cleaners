@@ -18,10 +18,10 @@ const responsive = {
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-  <img style={{height: "350px"}} src={testemonial1} onDragStart={handleDragStart}/>,
-  <img style={{height: "350px"}} src={testemonial2} onDragStart={handleDragStart}/>,
-  <img style={{height: "350px"}} src={testemonial3} onDragStart={handleDragStart}/>,
-  <img style={{height: "350px"}} src={testemonial4} onDragStart={handleDragStart}/>,
+  <img style={{height: "350px", maxWidth: "250px"}} src={testemonial1} onDragStart={handleDragStart}/>,
+  <img style={{height: "350px", maxWidth: "250px"}} src={testemonial2} onDragStart={handleDragStart}/>,
+  <img style={{height: "350px", maxWidth: "250px"}} src={testemonial3} onDragStart={handleDragStart}/>,
+  <img style={{height: "350px", maxWidth: "250px"}} src={testemonial4} onDragStart={handleDragStart}/>,
 ];
 
 const Testemonials = () => {
