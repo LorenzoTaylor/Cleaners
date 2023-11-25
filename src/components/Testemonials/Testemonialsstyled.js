@@ -43,6 +43,7 @@ export const TestemonialImage = styled.img`
     align-self: center;
     height: 300px;
     width: 100%;
+    max-width: 100%;
 `;
 
 export const ResponsiveDiv = styled.div`
