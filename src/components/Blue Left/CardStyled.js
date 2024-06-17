@@ -6,7 +6,7 @@ export const CardContainer = styled.div`
     height: 500px;
     width: 100%;
     background-color: #012E6A;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     font-family: 'Roboto', sans-serif;
     color: white;
 `;
