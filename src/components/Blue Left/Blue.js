@@ -45,12 +45,12 @@ const Blue = () => {
         </div>
         <div className="firstdisplaychange" style={{ display: "flex", justifyContent: "center", width: "100%" }}>
           <div className="displaychange" style={{ display: "flex", marginBottom: "20px", justifyContent: "center", width: "100%" }}>
-            <Card style={{ marginBottom: "10px", marginTop: "10px"}} items={CardBullets1} image={cardImg1} title='ENTIRE SPACE' />
-            <Card style={{ marginBottom: "10px", marginTop: "10px"} }} items={CardBullets2} image={cardImg2} title='KITCHEN' />
+            <Card style={{ marginBottom: "20px"} items={CardBullets1} image={cardImg1} title='ENTIRE SPACE' />
+            <Card style={{ marginBottom: "20px"} }} items={CardBullets2} image={cardImg2} title='KITCHEN' />
           </div>
           <div className="displaychange" style={{ display: "flex", paddingBottom: "20px", justifyContent: "center", width: "100%" }}>
-            <Card style={{ marginBottom: "10px", marginTop: "10px"}}} items={CardBullets3} image={cardImg3} title='BATHROOMS' />
-            <Card style={{ marginBottom: "10px", marginTop: "10px"}}} items={CardBullets4} image={cardImg4} title='BEDROOMS' />
+            <Card style={{ marginBottom: "20px"}}} items={CardBullets3} image={cardImg3} title='BATHROOMS' />
+            <Card style={{ marginBottom: "20px"}}} items={CardBullets4} image={cardImg4} title='BEDROOMS' />
           </div>
         </div>
     
