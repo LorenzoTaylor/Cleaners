@@ -44,7 +44,7 @@ const Blue = () => {
           <p style={{ padding: "10px 10% 10px 10%", textAlign: "center" }}>We offer a wide spectrum of efficient, comprehensive, and detailed maid services across the country. We can get your entire home tidy, clean, fresh, and healthy for you, your family, and your pets, or you can choose our specialized single-room cleaning service for that one pesky area in your home. Explore what tasks each of our services entails:</p>
         </div>
         <div className="firstdisplaychange" style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-          <div className="displaychange" style={{ display: "flex", marginBottom: "20px", justifyContent: "center", width: "100%" }}>
+          <div className="displaychange" style={{ display: "flex", justifyContent: "center", width: "100%" }}>
             <Card items={CardBullets1} image={cardImg1} title='ENTIRE SPACE' />
             <Card items={CardBullets2} image={cardImg2} title='KITCHEN' />
           </div>
