@@ -35,13 +35,6 @@ const ImgSlide = () => {
         <p><img src={img2} alt="Cleaning Crew 2" className='sliderimg' /></p>
         <p><img src={img3} alt="Cleaning Crew 3" className='sliderimg' /></p>
       </AliceCarousel>
-      <div className='boxwrapper'>
-        <div className='alice box'>
-          {/*<p id="boxtext">
-            {textArr[currentIndex]}
-  </p>*/}
-        </div>
-      </div>
     </div>
   );
 };
