@@ -8,6 +8,24 @@ import Footer from './components/Footer';
 import Blue from './components/Blue Left/Blue';
 import Testemonials from './components/Testemonials/Testemonials';
 import Intro from './components/Intro/Intro';
+import * as THREE from 'three';
+
+function SprayBottleMesh(){
+
+  // this first attribute is a field of view, the extent of which the scene that is on
+  // display at any given moment (the value is in degrees)
+  const scene = new THREE.Scene(); 
+
+  // the camera attribute is the aspect ratio, almost always use the width of the element divided by
+  // the height or else the elements would look squished
+  const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+  // create the renderer instance, then set the size in which you'd want to render your app
+  const renderer = new THREE.WebGLRenderer();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  document.body.appendChild(renderer.domElement);
+
+}
 
 function App() {
   return (
